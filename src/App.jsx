@@ -12,13 +12,13 @@ import RockyPage from "./pages/details/RockyPage";
 import PriceListPage from "./pages/PriceList";
 import SimulasiKreditPage from "./pages/SimulasiKredit";
 import TestDrivePage from "./pages/TestDrive";
-import GalleryPage from "./pages/galeri";
+import GalleryPage from "./pages/Galeri";
 import KreditMobilDaihatsuJakarta from "./pages/articles/KreditMobilDaihatsuJakarta";
 import PromoMobilDaihatsuMurahJabodetabek from "./pages/articles/PromoMobilDaihatsuMurahJabodetabek";
 import DealerResmiDaihatsuJakarta from "./pages/articles/DealerResmiDaihatsuJakarta";
-import ArticlesPage from "./pages/artikel";
-import Kontak from "./pages/kontak";
-import Brosur from "./pages/brosur";
+import ArticlesPage from "./pages/Artikel";
+import Kontak from "./pages/Kontak";
+import Brosur from "./pages/Brosur";
 
 
 function App() {
