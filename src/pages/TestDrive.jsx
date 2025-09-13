@@ -1,5 +1,5 @@
 // src/pages/TestDrivePage.jsx
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function TestDrivePage() {
   const [form, setForm] = useState({
@@ -48,6 +48,13 @@ Tanggal Test Drive: ${form.tanggal}
     )}`;
     window.open(waLink, "_blank");
   };
+
+  useEffect(() => {
+      const main = document.getElementById("main-content");
+      if (main) {
+        main.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, []);
 
   return (
     <div className="flex justify-center py-12 px-6">

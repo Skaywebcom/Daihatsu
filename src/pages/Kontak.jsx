@@ -75,7 +75,7 @@ export default function Kontak() {
                   <FaWhatsapp /> 085117626717
                 </p>
                 <p className="flex items-center gap-2 text-gray-700">
-                  <FaEnvelope /> ridhokh10@gmail.com
+                  <FaEnvelope /> jaybie1909@gmail.com
                 </p>
               </div>
             </section>

@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 // src/pages/PriceListPage.jsx
 export default function PriceListPage() {
   const priceList = [
@@ -86,10 +88,18 @@ export default function PriceListPage() {
     { name: "ROCKY 1.0 R TC CVT ASA+ SC", price: "4.322.300" },
   ];
 
+
   // Bagi dua untuk 2 kolom
   const mid = Math.ceil(priceList.length / 2);
   const leftCol = priceList.slice(0, mid);
   const rightCol = priceList.slice(mid);
+
+  useEffect(() => {
+    const main = document.getElementById("main-content");
+    if (main) {
+      main.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, []);
 
   return (
     <div className="py-12 px-6 max-w-6xl mx-auto">
