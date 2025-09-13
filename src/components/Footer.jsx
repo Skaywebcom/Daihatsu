@@ -90,13 +90,13 @@ export default function Footer() {
     085117626717
   </a>
   <a
-    href="mailto:ridhokh10@gmail.com"
+    href="mailto:jaybie1909@gmail.com"
     className="flex items-center gap-2"
   >
     <span className="bg-white text-red-600 p-2 rounded-full shadow-md flex items-center justify-center">
       <FaEnvelope />
     </span>
-    ridhokh10@gmail.com
+    jaybie1909@gmail.com
   </a>
 </div>
 

@@ -50,19 +50,21 @@ export default function HeroSlider() {
   };
 
   return (
-    <section className="relative w-full h-[80vh] overflow-hidden">
+    <section className="relative w-full h-[50vh] sm:h-[60vh] md:h-[80vh] overflow-hidden">
+
       <AnimatePresence initial={false} custom={direction}>
         <motion.img
-          key={current}
-          src={slides[current]}
-          alt={`slide-${current}`}
-          custom={direction}
-          variants={variants}
-          initial="enter"
-          animate="center"
-          exit="exit"
-          className="absolute top-0 left-0 w-full h-full object-cover object-center"
-        />
+  key={current}
+  src={slides[current]}
+  alt={`slide-${current}`}
+  custom={direction}
+  variants={variants}
+  initial="enter"
+  animate="center"
+  exit="exit"
+  className="absolute top-0 left-0 w-full h-auto max-h-[80vh] object-cover object-center"
+/>
+
       </AnimatePresence>
 
       {/* Hapus Indicator */}

@@ -36,7 +36,8 @@ export default function Header() {
       </div>
 
       {/* Baris Bawah Merah */}
-      <div className="bg-red-600 h-48 md:h-64"></div>
+      <div className="bg-red-600 h-[30vh] md:h-[40vh]"></div>
+
     </section>
   );
 }
